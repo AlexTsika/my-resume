@@ -27,6 +27,10 @@ body {
     max-height: 90vh;
 }
 
+.footer-img {
+    max-height: 10vh;
+}
+
 .nav-link {
     cursor: pointer;
 }
