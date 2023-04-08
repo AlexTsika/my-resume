@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: lightskyblue;
+    background-color: silver;
 }
 .header-container {
     min-height: 10vh;
@@ -11,12 +11,24 @@ body {
     min-height: 90vh;
 }
 
+.app-col {
+    min-height: 90vh;
+}
+
 .footer-container {
     min-height: 20vh;
 }
 
 .icon-img {
-    max-height: 10vh;
+    max-height: 7vh;
+}
+
+.welcome-img {
+    max-height: 90vh;
+}
+
+.nav-link {
+    cursor: pointer;
 }
 
 
@@ -31,7 +43,7 @@ body {
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: lightblue;
+    background-color: silver;
     border: 1px solid #212529;
     border-radius: 5px;
 }
