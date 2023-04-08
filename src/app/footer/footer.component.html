@@ -1,11 +1,35 @@
-<div class="row justify-content-center align-items-center text-center w-100 bg-info">
-    <div class="col-lg-4">
-        <img src="assets/footer.png" alt="footer" class="img-fluid footer-img bg-warning">
+<div class="row justify-content-center align-items-center text-center">
+    <!-- contact -->
+    <div class="col-lg-4 order-1 order-lg-1 p-3 mb-2">
+        <app-contact></app-contact>
     </div>
-    <div class="col-lg-4">
-        <img src="assets/footer.png" alt="footer" class="img-fluid footer-img bg-warning">
+    <!-- end contact -->
+
+    <!-- copyright current year -->
+    <div class="col-lg-4 order-3 order-lg-2 p-3">
+        <p>© {{ currentYear }} Alexandros Tsikakis</p>
     </div>
-    <div class="col-lg-4">
-        <img src="assets/footer.png" alt="footer" class="img-fluid footer-img bg-warning">
+    <!-- end copyright current year -->
+    
+    <!-- social media -->
+    <div class="col-lg-4 order-2 order-lg-3 p-3 mb-2">
+        <div class="row justify-content-center align-items-center link-custom mb-2">
+            <div class="col-auto">
+                <a href="https://www.linkedin.com/in/alexandros-tsikakis-3b525a252/" target="_blank" class="text-decoration-none text-custom">
+                    <i class="fa-brands fa-linkedin icon-custom linkedin-custom p-2"></i>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="https://github.com/AlexTsika" target="_blank" class="text-decoration-none text-custom">
+                    <i class="fa-brands fa-github icon-custom github-custom p-2"></i>
+                </a>    
+            </div>
+            <div class="col-auto">
+                <a href="https://github.com/AlexTsika/my-resume" target="_blank" class="text-decoration-none text-custom">
+                    <i class="fa-solid fa-code-fork icon-custom github-custom p-2"></i>
+                </a>
+            </div>
+        </div>
     </div>
+    <!-- end social media -->
 </div>

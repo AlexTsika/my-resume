@@ -35,6 +35,28 @@ body {
     cursor: pointer;
 }
 
+.link-custom:hover {
+    color: #cdd9e5;
+    cursor: pointer;
+}
+
+.icon-custom {
+    font-size: 25px;
+    color: silver;
+}
+
+.linkedin-custom:hover {
+    color: #0077b5;
+}
+
+.github-custom:hover {
+    color: #cdd9e5;
+}
+
+.text-custom {
+    color: silver;
+}
+
 
 
 /* Set the scrollbar width and color for Google Chrome and Safari */
