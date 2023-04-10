@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent {
-
+  images = [
+    'assets/education1.png',
+    'assets/education2.png',
+  ];
 }

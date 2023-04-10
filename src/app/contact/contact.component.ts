@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-
+  images = [
+    'assets/contact1.png',
+    'assets/contact2.png',
+  ];
 }

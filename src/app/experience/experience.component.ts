@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent {
-
+  images = [
+    'assets/experience1.png',
+    'assets/experience2.png',
+  ];
 }

@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./languages.component.css']
 })
 export class LanguagesComponent {
-
+  images = [
+    'assets/languages1.png',
+    'assets/languages2.png',
+  ];
 }

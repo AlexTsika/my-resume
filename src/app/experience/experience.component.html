@@ -84,6 +84,13 @@
         </div>
     </div>
     <div class="col-lg-6">
-        <img src="assets/experience.png" alt="experience" class="img-fluid welcome-img">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="3000"
+                    [ngClass]="{ 'active': i === 0 }">
+                    <img [src]="image" class="img-fluid welcome-img" alt="experience">
+                </div>
+            </div>
+        </div>        
     </div>
 </div>

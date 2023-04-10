@@ -1,6 +1,13 @@
 <div class="row justify-content-center align-items-center text-end">
     <div class="col-lg-6 order-2 order-lg-1">
-        <img src="assets/profile.png" alt="profile" class="img-fluid welcome-img">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="3000"
+                    [ngClass]="{ 'active': i === 0 }">
+                    <img [src]="image" class="img-fluid welcome-img" alt="profile">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col-lg-6 order-1 order-lg-2">
         <h1 class="fw-bold pt-3">Profile</h1>
