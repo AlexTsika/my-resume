@@ -12,7 +12,7 @@ export class HeaderComponent {
   updateActiveNavLink(): void {
     const navLinks = this.elementRef.nativeElement.querySelectorAll('.nav-link');
     let activeNavLink = navLinks[0];
-    const offset = window.innerHeight * 0.1; // Calculate 10vh in pixels
+    const offset = window.innerHeight * 0.11; // Calculate 10vh in pixels
   
     navLinks.forEach((navLink: HTMLElement) => {
       const targetId = (navLink.getAttribute('href')?.substring(1) || navLink.getAttribute('data-target-id')) ?? '';
