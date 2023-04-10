@@ -10,4 +10,13 @@ export class HomeComponent {
     'assets/welcome1.png',
     'assets/welcome2.png',
   ];
+
+  downloadPdf() {
+    const pdfUrl = 'assets/AlexandrosTsikakisCV.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'AlexandrosTsikakisCV.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+  }
+  
 }
