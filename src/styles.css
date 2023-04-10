@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: silver;
 }
+
 .header-container {
     min-height: 10vh;
 }
@@ -42,12 +44,12 @@ body {
 
 .phone-custom:hover {
     color: #009966;
-    background-color: white;
+    background-color: #212529;
 }
 
 .linkedin-custom:hover {
-    color: #0964c0;
-    background-color: white;
+    color: #0077B5;
+    background-color: #212529;
 }
 
 .github-custom:hover {
@@ -65,11 +67,11 @@ body {
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
+
 ::-webkit-scrollbar-track {
     background-color: #212529;
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background-color: silver;
     border: 1px solid #212529;
