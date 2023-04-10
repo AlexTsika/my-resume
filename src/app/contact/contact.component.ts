@@ -10,4 +10,12 @@ export class ContactComponent {
     'assets/contact1.png',
     'assets/contact2.png',
   ];
+
+  downloadPdf() {
+    const pdfUrl = 'assets/AlexandrosTsikakisCV.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'AlexandrosTsikakisCV.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+  }
 }
