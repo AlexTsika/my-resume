@@ -36,21 +36,23 @@ body {
 }
 
 .link-custom:hover {
-    color: #cdd9e5;
+    color: #5c8ab4;
     cursor: pointer;
 }
 
-.icon-custom {
-    font-size: 25px;
-    color: silver;
+.phone-custom:hover {
+    color: #009966;
+    background-color: #212529;
 }
 
 .linkedin-custom:hover {
-    color: #0077b5;
+    color: #0964c0;
+    background-color: #212529;
 }
 
 .github-custom:hover {
     color: #cdd9e5;
+    background-color: #212529;
 }
 
 .text-custom {
