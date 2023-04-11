@@ -11,10 +11,15 @@ export class HeaderComponent {
 
   constructor(private elementRef: ElementRef) { }
 
-  // change con when clicked
+  // change icon when clicked for 1 second
   changeImage() {
-    // Change the image source by updating the currentImageIndex
+    // Change the image source to the next image
     this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+
+    // Set a timeout to switch back to the first image after 0.5 seconds
+    setTimeout(() => {
+      this.currentImageIndex = 0;
+    }, 500);
   }
 
   // This function updates the active nav link based on the current scroll position
@@ -65,7 +70,7 @@ export class HeaderComponent {
   // Close the collapsed navbar menu when a nav link is clicked
   closeNavbar(navbarToggler: HTMLButtonElement): void {
     const navbarCollapse: HTMLElement | null = document.getElementById('navbarNavAltMarkup');
-    
+
     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
       navbarToggler.click();
     }
