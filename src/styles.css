@@ -1,14 +1,18 @@
+/* Import the Google Fonts stylesheet for the 'Nunito' font family */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+/* Set the font family of the webpage to 'Nunito', and the background color of the body to silver */
 body {
     font-family: 'Nunito', sans-serif;
     background-color: silver;
 }
 
+/* Set the minimum height of the header container to 10% of the viewport height */
 .header-container {
     min-height: 10vh;
 }
 
+/* Set the minimum height of the content container and app column to 90% of the viewport height */
 .content-container {
     min-height: 90vh;
 }
@@ -17,63 +21,97 @@ body {
     min-height: 90vh;
 }
 
+/* Set the minimum height of the footer container to 20% of the viewport height */
 .footer-container {
     min-height: 20vh;
 }
 
+/* Set the maximum height of the icon image to 7% of the viewport height */
 .icon-img {
     max-height: 7vh;
 }
 
+/* Set the maximum height of the welcome image to 90% of the viewport height */
 .welcome-img {
     max-height: 90vh;
 }
 
+/* Set the maximum height of the footer image to 20% of the viewport height */
 .footer-img {
     max-height: 20vh;
 }
 
+/* Set the cursor style of the navigation links to pointer */
 .nav-link {
     cursor: pointer;
 }
 
+/* Set the text color of the link to #5c8ab4 and cursor style to pointer when hovering over the link */
 .link-custom:hover {
     color: #5c8ab4;
     cursor: pointer;
 }
 
+/* Set the text color of the phone link to #009966, and the background color to #212529 when hovering over the link */
 .phone-custom:hover {
     color: #009966;
     background-color: #212529;
 }
 
+/* Set the text color of the LinkedIn link to #0077B5, and the background color to #212529 when hovering over the link */
 .linkedin-custom:hover {
     color: #0077B5;
     background-color: #212529;
 }
 
+/* Set the text color of the GitHub link to #cdd9e5, and the background color to #212529 when hovering over the link */
 .github-custom:hover {
     color: #cdd9e5;
     background-color: #212529;
 }
 
+/* Set the text color of the custom text class to silver */
 .text-custom {
     color: silver;
 }
-
-
 
 /* Set the scrollbar width and color for Google Chrome and Safari */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+/* Set the background color of the scrollbar track for Google Chrome and Safari */
 ::-webkit-scrollbar-track {
     background-color: #212529;
 }
 
+/* Set the background color, border, and border radius of the scrollbar thumb for Google Chrome and Safari */
 ::-webkit-scrollbar-thumb {
     background-color: silver;
     border: 1px solid #212529;
     border-radius: 5px;
+}
+
+/* Set the scrollbar width and color for Mozilla Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: silver #212529;
+}
+
+/* Set the scrollbar width and color for Microsoft Edge */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: silver #212529;
+}
+
+/* Set the background color, border, and border radius of the scrollbar thumb for Mozilla Firefox and Microsoft Edge */
+*::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border: 1px solid #212529;
+    border-radius: 5px;
+}
+
+/* Set the background color of the scrollbar track for Mozilla Firefox and Microsoft Edge */
+*::-webkit-scrollbar-track {
+    background-color: #212529;
 }
