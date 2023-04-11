@@ -11,8 +11,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto me-3 text-end">
-                <a class="nav-link active" aria-current="page" href="#" data-target-id="home"><i
-                        class="fa-solid fa-house"></i></a>
+                <a class="nav-link active" (click)="scrollToElement('home'); closeNavbar(navbarToggler)"
+                    data-target-id="home"><i class="fa-solid fa-house"></i></a>
                 <a class="nav-link" (click)="scrollToElement('profile'); closeNavbar(navbarToggler)"
                     data-target-id="profile">Profile</a>
                 <a class="nav-link" (click)="scrollToElement('languages'); closeNavbar(navbarToggler)"
