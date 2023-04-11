@@ -19,7 +19,7 @@ export class HeaderComponent {
     // Set a timeout to switch back to the first image after 0.75 seconds
     setTimeout(() => {
       this.currentImageIndex = 0;
-    }, 500);
+    }, 750);
   }
 
   // This function updates the active nav link based on the current scroll position
