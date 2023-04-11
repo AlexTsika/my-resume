@@ -2,7 +2,7 @@
 <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark">
     <div class="container-fluid">
         <!-- icon wink click -->
-        <div class="navbar-brand icon-pointer" (click)="changeImage()">
+        <div class="navbar-brand icon-pointer" (click)="changeImage(); scrollToElement('home')">
             <img [src]="images[currentImageIndex]" alt="icon" class="img-fluid icon-img" />Alex Tsika
         </div>
         <!-- end icon wink click -->
