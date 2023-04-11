@@ -1,9 +1,11 @@
 <!-- navbar -->
 <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark">
     <div class="container-fluid">
-        <div class="navbar-brand" href="#" (click)="changeImage()">
+        <!-- icon wink click -->
+        <div class="navbar-brand icon-pointer" (click)="changeImage()">
             <img [src]="images[currentImageIndex]" alt="icon" class="img-fluid icon-img" />Alex Tsika
         </div>
+        <!-- end icon wink click -->
         <button #navbarToggler class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">

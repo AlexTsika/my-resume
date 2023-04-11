@@ -31,6 +31,10 @@ body {
     max-height: 7vh;
 }
 
+.icon-pointer {
+    cursor: pointer;
+}
+
 /* Set the maximum height of the welcome image to 90% of the viewport height */
 .welcome-img {
     max-height: 90vh;
