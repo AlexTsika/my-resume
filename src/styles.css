@@ -7,6 +7,10 @@ body {
     background-color: silver;
 }
 
+.icon-pointer {
+    cursor: pointer;
+}
+
 /* Set the minimum height of the header container to 10% of the viewport height */
 .header-container {
     min-height: 10vh;
