@@ -1,15 +1,15 @@
-<div class="row justify-content-center align-items-center text-end">
+<div class="row justify-content-center align-items-center">
     <div class="col-lg-6 order-2 order-lg-1">
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="3000"
+                <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="5000"
                     [ngClass]="{ 'active': i === 0 }">
                     <img [src]="image" class="img-fluid welcome-img" alt="education">
                 </div>
             </div>
         </div>        
     </div>
-    <div class="col-lg-6 order-1 order-lg-2">
+    <div class="col-lg-6 order-1 order-lg-2 text-end">
         <h1 class="fw-bold pt-3">Education <span class="flag-icon flag-icon-nl me-1"></span><span class="flag-icon flag-icon-be"></span></h1>
         <div class="row">
             <div class="col-lg-12">

@@ -9,7 +9,7 @@
     <div class="col-lg-6">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="3000"
+          <div *ngFor="let image of images; let i = index" class="carousel-item" data-bs-interval="5000"
             [ngClass]="{ 'active': i === 0 }">
             <img [src]="image" class="img-fluid welcome-img" alt="welcome">
           </div>
