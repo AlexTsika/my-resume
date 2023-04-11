@@ -11,7 +11,7 @@ export class HeaderComponent {
 
   constructor(private elementRef: ElementRef) { }
 
-  // Change icon when clicked for 0.75 second
+  // Change icon when clicked for 0.75 seconds
   changeImage() {
     // Change the image source to the next image
     this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
