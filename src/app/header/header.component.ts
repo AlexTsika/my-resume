@@ -6,8 +6,16 @@ import { Component, ElementRef, HostListener } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  images: string[] = ['assets/icon1.png', 'assets/icon2.png'];
+  currentImageIndex: number = 0;
 
   constructor(private elementRef: ElementRef) { }
+
+  // change con when clicked
+  changeImage() {
+    // Change the image source by updating the currentImageIndex
+    this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
+  }
 
   // This function updates the active nav link based on the current scroll position
   updateActiveNavLink(): void {
