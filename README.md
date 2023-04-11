@@ -70,6 +70,6 @@ As a recently graduated Full Stack Developer, I am passionate about creating dyn
 - Email: [Alexandros.Tsikakis@ymail.com](mailto:Alexandros.Tsikakis@ymail.com)
 - LinkedIn: [https://www.linkedin.com/in/alexandros-tsikakis-4a4a4a4a/](https://www.linkedin.com/in/alexandros-tsikakis-4a4a4a4a/)
 - Github: [https://github.com/at-creator](https://github.com/at-creator)
-- Repository: [https://github.com/at-creator/my-journey-as-full-stack-developer](https://github.com/at-creator/my-journey-as-full-stack-developer)
+- Repository: [https://github.com/at-creator/my-resume](https://github.com/at-creator/my-resume)
 
 © 2023 Alex Tsika
