@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   currentYear: number = new Date().getFullYear();
+  constructor() {
+  }
 }
