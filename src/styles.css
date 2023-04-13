@@ -121,7 +121,46 @@ body {
     color: silver;
 }
 
+
 /* Set the scrollbar width and color for Google Chrome and Safari */
 ::-webkit-scrollbar {
     width: 10px;
+}
+
+
+
+/* Set the background color of the scrollbar track for Google Chrome and Safari */
+::-webkit-scrollbar-track {
+    background-color: #212529;
+}
+
+/* Set the background color, border, and border radius of the scrollbar thumb for Google Chrome and Safari */
+::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border: 1px solid #212529;
+    border-radius: 5px;
+}
+
+/* Set the scrollbar width and color for Mozilla Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: silver #212529;
+}
+
+/* Set the scrollbar width and color for Microsoft Edge */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: silver #212529;
+}
+
+/* Set the background color, border, and border radius of the scrollbar thumb for Mozilla Firefox and Microsoft Edge */
+*::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border: 1px solid #212529;
+    border-radius: 5px;
+}
+
+/* Set the background color of the scrollbar track for Mozilla Firefox and Microsoft Edge */
+*::-webkit-scrollbar-track {
+    background-color: #212529;
 }
