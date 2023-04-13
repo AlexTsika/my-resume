@@ -1,4 +1,5 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
+import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +10,7 @@ export class HeaderComponent {
   images: string[] = ['assets/icon1.png', 'assets/icon2.png'];
   currentImageIndex: number = 0;
 
-  constructor(private elementRef: ElementRef) { }
+  constructor(private elementRef: ElementRef, public themeService: ThemeService) {}
 
   // Change icon when clicked for 0.75 seconds
   changeImage() {
@@ -74,6 +75,11 @@ export class HeaderComponent {
     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
       navbarToggler.click();
     }
+  }
+
+  // Toggle the theme
+  toggleTheme(): void {
+    this.themeService.toggleTheme();
   }
 
 }

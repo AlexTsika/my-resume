@@ -7,6 +7,31 @@ body {
     background-color: silver;
 }
 
+/* Set the background color for a custom class */
+.bg-custom {
+    background-color: silver;
+}
+
+/* Set the background color of a button */
+.btn-light {
+    background-color: silver;
+    border-color: silver;
+}
+
+/* Set the text color of an outline button */
+.btn-outline-light {
+    color: silver;
+    border-color: silver;
+}
+
+/* Set the text color and background color of an outline button when hovering */
+.btn-outline-light:hover {
+    color: #212529;
+    background-color: silver;
+    border-color: silver;
+}
+
+/* Set the cursor style of elements with a certain class */
 .icon-pointer {
     cursor: pointer;
 }
@@ -35,10 +60,6 @@ body {
     max-height: 7vh;
 }
 
-.icon-pointer {
-    cursor: pointer;
-}
-
 /* Set the maximum height of the welcome image to 90% of the viewport height */
 .welcome-img {
     max-height: 90vh;
@@ -54,31 +75,49 @@ body {
     cursor: pointer;
 }
 
-/* Set the text color of the link to #5c8ab4 and cursor style to pointer when hovering over the link */
+/* Set the text color of a link and cursor style to pointer when hovering over the link */
 .link-custom:hover {
     color: #5c8ab4;
     cursor: pointer;
 }
 
-/* Set the text color of the phone link to #009966, and the background color to #212529 when hovering over the link */
+/* Set the text color of the phone link and background color when hovering over the link */
 .phone-custom:hover {
     color: #009966;
     background-color: #212529;
 }
 
-/* Set the text color of the LinkedIn link to #0077B5, and the background color to #212529 when hovering over the link */
+/* Set the text color of the phone link and background color when hovering over the link for dark background */
+.phone-custom-dark:hover {
+    color: #009966;
+    background-color: silver;
+}
+
+/* Set the text color of the LinkedIn link and background color when hovering over the link for dark background */
+.linkedin-custom-dark:hover {
+    color: #0077B5;
+    background-color: silver;
+}
+
+/* Set the text color of the LinkedIn link and background color when hovering over the link */
 .linkedin-custom:hover {
     color: #0077B5;
     background-color: #212529;
 }
 
-/* Set the text color of the GitHub link to #cdd9e5, and the background color to #212529 when hovering over the link */
+/* Set the text color of the GitHub link and background color when hovering over the link */
 .github-custom:hover {
     color: #cdd9e5;
     background-color: #212529;
 }
 
-/* Set the text color of the custom text class to silver */
+/* Set the text color of the GitHub link and background color when hovering over the link for dark background */
+.github-custom-dark:hover {
+    color: #212529;
+    background-color: silver;
+}
+
+/* Set the text color of a custom class */
 .text-custom {
     color: silver;
 }
@@ -86,40 +125,4 @@ body {
 /* Set the scrollbar width and color for Google Chrome and Safari */
 ::-webkit-scrollbar {
     width: 10px;
-}
-
-/* Set the background color of the scrollbar track for Google Chrome and Safari */
-::-webkit-scrollbar-track {
-    background-color: #212529;
-}
-
-/* Set the background color, border, and border radius of the scrollbar thumb for Google Chrome and Safari */
-::-webkit-scrollbar-thumb {
-    background-color: silver;
-    border: 1px solid #212529;
-    border-radius: 5px;
-}
-
-/* Set the scrollbar width and color for Mozilla Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: silver #212529;
-}
-
-/* Set the scrollbar width and color for Microsoft Edge */
-html {
-    scrollbar-width: thin;
-    scrollbar-color: silver #212529;
-}
-
-/* Set the background color, border, and border radius of the scrollbar thumb for Mozilla Firefox and Microsoft Edge */
-*::-webkit-scrollbar-thumb {
-    background-color: silver;
-    border: 1px solid #212529;
-    border-radius: 5px;
-}
-
-/* Set the background color of the scrollbar track for Mozilla Firefox and Microsoft Edge */
-*::-webkit-scrollbar-track {
-    background-color: #212529;
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-contact',
@@ -11,6 +12,8 @@ export class ContactComponent {
     'assets/contact2.png',
   ];
 
+  constructor(public themeService: ThemeService) {}
+
   downloadPdf() {
     const pdfUrl = 'assets/AlexandrosTsikakisCV.pdf';
     const link = document.createElement('a');
@@ -18,4 +21,5 @@ export class ContactComponent {
     link.download = 'AlexandrosTsikakisCV.pdf';
     link.dispatchEvent(new MouseEvent('click'));
   }
+
 }

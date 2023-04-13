@@ -6,8 +6,12 @@
         <div class="row justify-content-center align-items-center mb-2 fs-5">
             <div class="col-lg-12">
                 <p>
-                    <a class="text-decoration-none text-dark" href="tel:0032485140832">
-                        <span class="phone-custom p-1 rounded"><i class="fa-solid fa-phone"></i> +32(0)485 14 08
+                    <a class="text-decoration-none"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'text-custom' : 'text-dark'"
+                        href="tel:0032485140832">
+                        <span class="p-1 rounded"
+                            [ngClass]="(themeService.isDarkTheme$ | async) ? 'phone-custom-dark' : 'phone-custom'"><i
+                                class="fa-solid fa-phone"></i> +32(0)485 14 08
                             32</span>
                     </a>
                 </p>
@@ -19,9 +23,12 @@
         <div class="row justify-content-center align-items-center link-custom mb-2 fs-5">
             <div class="col-lg-12">
                 <p>
-                    <a target="_blank" class="text-decoration-none text-dark"
+                    <a target="_blank" class="text-decoration-none"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'text-custom' : 'text-dark'"
                         href="mailto:alexandros.tsikakis@ymail.com">
-                        <span class="linkedin-custom p-1 rounded"><i class="fa-regular fa-envelope-open"></i>
+                        <span class="p-1 rounded"
+                            [ngClass]="(themeService.isDarkTheme$ | async) ? 'linkedin-custom-dark' : 'linkedin-custom'"><i
+                                class="fa-regular fa-envelope-open"></i>
                             Alexandros.Tsikakis@ymail.com</span>
                     </a>
                 </p>
@@ -34,8 +41,11 @@
             <div class="col-lg-12">
                 <p>
                     <a href="https://www.linkedin.com/in/alexandros-tsikakis-3b525a252/" target="_blank"
-                        class="text-decoration-none text-dark">
-                        <span class="linkedin-custom p-1 rounded">Linked<i class="fa-brands fa-linkedin"></i></span>
+                        class="text-decoration-none"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'text-custom' : 'text-dark'">
+                        <span class="p-1 rounded"
+                            [ngClass]="(themeService.isDarkTheme$ | async) ? 'linkedin-custom-dark' : 'linkedin-custom'">Linked<i
+                                class="fa-brands fa-linkedin"></i></span>
                     </a>
                 </p>
             </div>
@@ -46,8 +56,11 @@
         <div class="row justify-content-center align-items-center mb-2 fs-5">
             <div class="col-lg-12">
                 <p>
-                    <a href="https://github.com/AlexTsika" target="_blank" class="text-decoration-none text-dark">
-                        <span class="github-custom p-1 rounded"><i class="fa-brands fa-github"></i> Github</span>
+                    <a href="https://github.com/AlexTsika" target="_blank" class="text-decoration-none"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'text-custom' : 'text-dark'">
+                        <span class="p-1 rounded"
+                            [ngClass]="(themeService.isDarkTheme$ | async) ? 'github-custom-dark' : 'github-custom'"><i
+                                class="fa-brands fa-github"></i> Github</span>
                     </a>
                 </p>
             </div>
@@ -58,9 +71,11 @@
         <div class="row justify-content-center align-items-center mb-2 fs-5">
             <div class="col-lg-12">
                 <p>
-                    <a href="https://github.com/AlexTsika/my-resume" target="_blank"
-                        class="text-decoration-none text-dark">
-                        <span class="github-custom p-1 rounded"><i class="fa-solid fa-code-fork"></i> Repository</span>
+                    <a href="https://github.com/AlexTsika/my-resume" target="_blank" class="text-decoration-none"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'text-custom' : 'text-dark'">
+                        <span class="p-1 rounded"
+                            [ngClass]="(themeService.isDarkTheme$ | async) ? 'github-custom-dark' : 'github-custom'"><i
+                                class="fa-solid fa-code-fork"></i> Repository</span>
                     </a>
                 </p>
             </div>
@@ -71,7 +86,9 @@
         <div class="row justify-content-center align-items-center link-custom mb-2 fs-5">
             <div class="col-lg-12">
                 <p>
-                    <button class="btn btn-outline-dark rounded-pill" (click)="downloadPdf()">
+                    <button class="btn rounded-pill"
+                        [ngClass]="(themeService.isDarkTheme$ | async) ? 'btn-outline-light' : 'btn-outline-dark'"
+                        (click)="downloadPdf()">
                         <span class="ms-3 me-3 fs-5">Download Resume<span class="me-3"></span><i
                                 class="fa-regular fa-file-pdf"></i></span>
                     </button>
