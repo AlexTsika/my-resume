@@ -13,10 +13,10 @@ body {
 }
 
 /* Set the background color of a button */
-.btn-light {
+/* .btn-light {
     background-color: silver;
     border-color: silver;
-}
+} */
 
 /* Set the text color of an outline button */
 .btn-outline-light {
