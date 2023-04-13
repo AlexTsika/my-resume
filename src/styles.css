@@ -27,7 +27,6 @@ body {
 /* Set the text color and background color of an outline button when hovering */
 .btn-outline-light:hover {
     color: #212529;
-    background-color: silver;
     border-color: silver;
 }
 
@@ -107,7 +106,7 @@ body {
 
 /* Set the text color of the GitHub link and background color when hovering over the link */
 .github-custom:hover {
-    color: #cdd9e5;
+    color: silver;
     background-color: #212529;
 }
 
